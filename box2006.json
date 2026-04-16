@@ -20,21 +20,21 @@
  
     {
       "key": "腾讯视频",
-      "name": "腾云驾雾┃无意云",
+      "name": "腾讯",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/腾讯视频.js"
     },
     {
       "key": "芒果视频",
-      "name": "百忙无果┃无意云",
+      "name": "芒果视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/芒果视频.js"
     },
     {
       "key": "无意哔哩",
-      "name": "哔哩次元┃无意云",
+      "name": "哔哩哔哩",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -44,14 +44,14 @@
     },
     {
       "key": "爱奇艺",
-      "name": "奇珍艺宝┃无意云",
+      "name": "爱奇艺",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/爱奇艺.js"
     },
     {
       "key": "优酷视频",
-      "name": "优秀酷毙┃无意云",
+      "name": "优酷视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷视频.js"
@@ -59,7 +59,7 @@
    
     {
       "key": "盘它",
-      "name": "盘它｜4K",
+      "name": "移动云盘",
       "type": 3,
       "api": "csp_PanWebShareCloudPT",
       "searchable": 1,
