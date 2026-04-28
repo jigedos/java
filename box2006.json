@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣",
+      "name": "2026.4.28更新",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -99,7 +99,7 @@
    
     {
       "key": "奴娜",
-      "name": "奴娜丨APP",
+      "name": "采集1丨APP",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -109,7 +109,7 @@
     },
     {
       "key": "闪影",
-      "name": "闪影｜APP",
+      "name": "采集2｜APP",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -128,39 +128,8 @@
       "playerType": 2,
       "ext": "http://chaoqianys.top:91/api.php/app/"
     },
-   
-    {
-      "key": "顾我",
-      "name": "顾我｜APP",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "http://117.50.204.35:8090",
-        "dataKey": "ca94b06ca3c7d80e",
-        "dataIv": "ca94b06ca3c7d80e",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-   
-    {
-      "key": "金牌",
-      "name": "金牌｜APP",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://qj4.catbb.xyz",
-        "dataKey": "eecbio48dsq13kkk",
-        "dataIv": "eecbio48dsq13kkk",
-        "search": "searchList4",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-
+     
+  
     {
       "key": "老鹰",
       "name": "老鹰｜APP",
@@ -193,19 +162,6 @@
     },
 
     {
-      "key": "茉莉",
-      "name": "茉莉｜APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "./lib/9.txt",
-        "dataKey": "88689667dce61725",
-        "dataIv": "88689667dce61725"
-      }
-    },
-    {
       "key": "段友",
       "name": "段友｜APP",
       "type": 3,
@@ -218,36 +174,15 @@
         "dataIv": "8E2DC386FD452D05"
       }
     },
-    {
-      "key": "黑猫",
-      "name": "黑猫｜APP",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "http://app1-0-0.87333.cc",
-        "dataKey": "VwsHxkCViDXEExWa",
-        "dataIv": "VwsHxkCViDXEExWa"
-      }
-    },
+
  
     {
       "key": "独播影视",
-      "name": "独播｜影视",
+      "name": "独播｜弹幕",
       "type": 3,
       "api": "csp_Duboku"
     },
-    {
-      "key": "厂长影视",
-      "name": "厂长｜影视",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzymovie.com"
-    },
+  
    
     {
       "key": "云播影视",
@@ -273,30 +208,8 @@
       "ext": "./lib/面包影视.json"
     },
 
-    {
-      "key": "1905",
-      "name": "1905｜影视",
-      "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "荐片",
-      "name": "荐片｜磁力",
-      "api": "csp_JianPian",
-      "type": 3
-    },
-    {
-      "key": "修罗",
-      "name": "修罗｜磁力",
-      "api": "csp_Xlys",
-      "type": 3,
-      "ext": "https://www.xlys02.com"
-    },
   
-   
+
     {
       "key": "红牛资源",
       "name": "🎀红牛｜采集",
@@ -525,7 +438,7 @@
     },
     {
       "key": "哆啦新番社",
-      "name": "哆啦｜新番社",
+      "name": "哆啦｜动漫",
       "type": 3,
       "api": "csp_XBPQ",
       "style": {
@@ -659,17 +572,7 @@
       "filterable": 1,
       "genre": "shortdrama"
     },
-    {
-      "key": "星芽短剧",
-      "name": "星芽｜短剧",
-      "type": 3,
-      "api": "./lib/星芽短剧.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "genre": "shortdrama"
-    },
+  
     {
       "key": "剧王短剧",
       "name": "剧王｜短剧",
@@ -940,67 +843,6 @@
         "type": "rect",
         "ratio": 1.597
       }
-    },
-    {
-      "key": "阿里云盘",
-      "name": "阿里｜云盘",
-      "type": 3,
-      "api": "csp_PanAli",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "夸克网盘",
-      "name": "夸克｜网盘",
-      "type": 3,
-      "api": "csp_PanQuark",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "UC网盘",
-      "name": "UC｜网盘",
-      "type": 3,
-      "api": "csp_PanUC",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "百度网盘",
-      "name": "百度｜网盘",
-      "type": 3,
-      "api": "csp_PanBaidu",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
-      "key": "push_agent",
-      "name": "手机｜推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0
     }
   ],
   "lives": [
@@ -1109,16 +951,17 @@
       "type": 2,
       "url": "Sequence"
     }, 
+    {
+      "name": "Rizz",
+      "type": 1,
+      "url": "https://rizzon.in/wp-content/json.php?url="
+    },
      {
             "name": "4kbox",
             "type": 0,
             "url": "http://jx.4kbox.top/jx/?url="
         },
-         {
-      "name": "rizzon",
-      "type": 1,
-      "url": "https://rizzon.in/wp-content/json.php?url="
-    },
+        
      {
       "name": "-解析2-",
       "type": 0,
